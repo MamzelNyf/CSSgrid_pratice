@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'CaviarDreams';
+    src: url('./assets/fonts/CaviarDreams.eot');/* IE9 Compat Modes */
+    src: local('CaviarDreams'),
+        url('./assets/fonts/CaviarDreams.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/CaviarDreams.woff2') format('woff2'),
+        url('./assets/fonts/CaviarDreams.woff') format('woff'),
+        url('./assets/fonts/CaviarDreams.ttf') format('truetype'),
+        url('./assets/fonts/CaviarDreams.svg#CaviarDreams') format('svg'); /* Legacy iOS */
+        font-weight: normal;
+        font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Belleson_';
+    src: url('./assets/fonts/Belleson.eot');/* IE9 Compat Modes */
+    src: local('Belleson_'),
+        url('./assets/fonts/Belleson.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('./assets/fonts/Belleson.woff2') format('woff2'), /* Super Modern Browsers */
+        url('./assets/fonts/Belleson.woff') format('woff'), /* Pretty Modern Browsers */
+        url('./assets/fonts/Belleson.ttf')  format('truetype'), /* Safari, Android, iOS */
+        url('./assets/fonts/Belleson.svg#Belleson') format('svg'); /* Legacy iOS */
+        font-weight: normal;
+        font-style: normal;
+    }

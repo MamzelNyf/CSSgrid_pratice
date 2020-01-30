@@ -1,0 +1,20 @@
+{
+  "name": "shedesign-grid",
+  "version": "1.0.0",
+  "description": "SheDesign website with CSS Grid",
+  "main": "index.js",
+  "dependencies": {
+    "van11y-accessible-hide-show-aria": "^3.0.1"
+  },
+  "devDependencies": {
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Fanny Lefert",
+  "license": "ISC"
+}

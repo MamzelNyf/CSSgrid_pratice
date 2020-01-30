@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.container{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 
+        minmax(75px, auto) /* Nav */
+        auto /* Header */
+        1fr /* Collaps */
+        1fr /* Content */
+        auto; /* Footer */;
+    grid-template-areas: 
+    "nav"
+    "header"
+    "collaps"
+    "main"
+    "footer";
+    grid-gap: 10px;
+}
+/* . dot insert an empty space, dots on each side create a wrapper*/
+header{
+    grid-area: header;
+    background-color: greenyellow; 
+}
+nav{
+    grid-area: nav;
+    background-color: blue;
+}
+.collaps{
+    grid-area: collaps;
+    background-color: cyan;
+}
+main{
+    grid-area: main;
+    background-color: green;
+}
+footer{
+    grid-area: footer;
+    background-color: orange;
+}
+
+@media screen and (min-width:736px){
+    .container{
+        display: grid;
+        grid-template-columns: 30px 1fr 2fr;
+        grid-template-rows: auto 3fr auto;
+        grid-template-areas: 
+        "nav collaps header"
+        "nav collaps main"
+        "nav collaps footer";
+        grid-gap:0px;
+        height: 100vh;
+    }
+}
+
+
